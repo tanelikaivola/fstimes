@@ -1,11 +1,12 @@
 [package]
 name = "fstimes"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
+rust-version = "1.70.0"
 
 [dependencies]
 chrono = "0.4.35"
-clap = { version = "4.5.4", default-features = false, features = ["derive", "cargo", "error-context", "help", "std", "suggestions", "usage"] }
+clap = { version = "~4.4.18", default-features = false, features = ["derive", "cargo", "error-context", "help", "std", "suggestions", "usage"] }
 walkdir = "2"
 
 [profile.release]
